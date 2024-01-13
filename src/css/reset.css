@@ -33,3 +33,147 @@ img {
   max-width: 100%;
   height: auto;
 }
+.form {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-family: "Roboto", sans-serif;
+}
+.form-button {
+  color: #FFFFFF;
+  background-color: #4E75FF;
+  width: 360px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 8px;
+  border-style: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  display: block;
+  text-align: center;
+  margin-top: 8px;
+}
+.form-button:hover {
+  background-color: #6C8CFF;
+}
+.form-labelone {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.form-inputone {
+  height: 40px;
+  border-radius: 4px;
+  color: #2E2F42;
+  border: 1px solid #808080;
+  padding: 0 8px;
+}
+.form-inputone:hover {
+  border: 1px solid #000000;
+  border-style: none;
+}
+.form-two {
+  height: 64px;
+  border-radius: 4px;
+  color: #2E2F42;
+  border: 1px solid #808080;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 48px;
+}
+.form-labeltwo {
+  padding-top: 16px;
+  display:flex;
+  align-items: center;
+  gap: 14px;
+}
+.form-inputtwo {
+  width: 20px;
+  height: 20px;
+}
+.form-inputtwo:hover {
+  border-color: #4E75FF;
+  background-color: #4E75FF;
+}
+
+
+.timer-input {
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  width: 272px;
+  padding: 0 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-family: "Roboto", sans-serif;
+}
+.timer-button {
+  color: #FFFFFF;
+  background-color: #4E75FF;
+  width: 75px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 8px;
+  border-style: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  display: block;
+  text-align: center;
+}
+.timer-button:hover {
+  background-color: #6C8CFF;
+}
+.timer-button:disabled {
+  background-color: #CFCFCF;
+  color: #989898;
+  cursor: not-allowed;
+}
+.timer-div {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+.timer {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  width: 355px;
+  padding-right: 9px;
+  height: 72px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  column-gap: 24px;
+  height: 72px;
+  justify-content: center;
+  align-items: center;
+}
+.value {
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.label {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}

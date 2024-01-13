@@ -12,24 +12,24 @@
 <body>
     <script src="./js/2-snackbar.js" type="module"></script>
     <form class="form">
-        <label>
+        <label class="form-labelone">
             Delay (ms)
-            <input type="number" name="delay" required />
+            <input class="form-inputone" type="number" name="delay" required />
         </label>
     
-        <fieldset>
+        <fieldset class="form-two">
             <legend>State</legend>
-            <label>
-                <input type="radio" name="state" value="fulfilled" required />
+            <label class="form-labeltwo">
+                <input class="form-inputtwo" type="radio" name="state" value="fulfilled" required />
                 Fulfilled
             </label>
-            <label>
-                <input type="radio" name="state" value="rejected" required />
+            <label class="form-labeltwo">
+                <input class="form-inputtwo" type="radio" name="state" value="rejected" required />
                 Rejected
             </label>
         </fieldset>
     
-        <button type="submit">Create notification</button>
+        <button class="form-button" type="submit">Create notification</button>
     </form>
 </body>
 
